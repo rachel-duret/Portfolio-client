@@ -28,17 +28,17 @@ function Profile({}: Props) {
 							About
 						</button>
 					</Link>
-					<Link href="#exprience">
+					<Link href="#expriences">
 						<button className="profileButton hover:border-[#F7AB0A]/40 hover: text-[#F7AB0A]/40">
 							experiences
 						</button>
 					</Link>
-					<Link href="#skill">
+					<Link href="#skills">
 						<button className="profileButton hover:border-[#F7AB0A]/40 hover: text-[#F7AB0A]/40">
 							skills
 						</button>
 					</Link>
-					<Link href="#project">
+					<Link href="#projects">
 						<button className="profileButton hover:border-[#F7AB0A]/40 hover: text-[#F7AB0A]/40">
 							projects
 						</button>

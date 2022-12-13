@@ -3,9 +3,14 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Header from './../components/Header';
 import Profile from './../components/Profile';
-import Skill from './../components/Skill';
-import Experience from './../components/Experience';
+import Skill from '../components/Skills';
+import Experience from '../components/Experiences';
 import About from './../components/About';
+import Project from '../components/Projects';
+import Contact from './../components/Contact';
+import Experiences from './../components/Experiences';
+import Skills from './../components/Skills';
+import Projects from './../components/Projects';
 
 export default function Home() {
 	return (
@@ -17,7 +22,7 @@ export default function Home() {
 			</Head>
 
 			<Header />
-			<section id="profile" className="snap-center">
+			<section id="profile" className="snap-start">
 				<Profile />
 			</section>
 
@@ -25,12 +30,20 @@ export default function Home() {
 				<About />
 			</section>
 
-			<section id="skill" className="snap-center">
-				<Skill />
+			<section id="expriences" className="snap-center">
+				<Experiences />
 			</section>
 
-			<section id="exprience" className="snap-center">
-				<Experience />
+			<section id="skills" className="snap-start">
+				<Skills />
+			</section>
+
+			<section id="projects" className="snap-start">
+				<Projects />
+			</section>
+
+			<section id="contact" className="snap-start">
+				<Contact />
 			</section>
 		</div>
 	);
